@@ -1,0 +1,9 @@
+{
+  "name": "sinnia",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.1",
+    "normalize.css": "~3.0.3",
+    "underscore": "~1.8.3"
+  }
+}
