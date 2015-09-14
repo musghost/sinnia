@@ -53,6 +53,7 @@ header {
     .toggle-menu {
       text-align: center;
       display: none;
+      background-color: #f37421;
       @media screen and (max-width: 767px){
         display: block;
       }
@@ -60,15 +61,14 @@ header {
         display: inline-block;
         width: 30px;
         height: 30px;
-        background: #fff;
-        border: 2px solid #000;
+        border: 2px solid #fff;
         border-radius: 4px;
       }
       span {
         display: block;
         width: 92%;
         height: 2px;
-        background: #4d4d4d;
+        background: #fff;
         line-height: 1px;
         margin: 6px auto;
         border-radius: 2px;
@@ -143,6 +143,13 @@ header nav ul {
 header nav ul li {
   display: inline-block;
   margin: 0;
+  @media screen and (max-width: 767px) {
+    display: block;
+    a {
+      width: 100%;
+      padding: 15px 0;
+    }
+  }
 }
 header nav ul li a {
   display: inline-block;
